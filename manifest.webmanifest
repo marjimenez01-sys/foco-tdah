@@ -1,0 +1,20 @@
+{
+  "name": "Focus TDAH",
+  "short_name": "Focus",
+  "description": "Asistente personal para TDAH: próxima tarea, foco, medicación, hábitos y patrones.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ECEFF3",
+  "theme_color": "#2A55C4",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Planificar el día", "short_name": "Planificar", "url": "./#plan" }
+  ]
+}
